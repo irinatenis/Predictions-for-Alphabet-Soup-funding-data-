@@ -14,6 +14,7 @@ a. **Preprocessing the data**
    - Determined the number of data points for each unique value and picking a cutoff point to bin "rare" categorical variables together in a new value *Other*
    - Used pd.get_dummies() to encode categorical variables
    - Split the data into training and testing and scaled it
+<<<<<<< HEAD
 b. **Compiling, training, and evaluating the model**
 
    - Used TensorFlow and Keras to create a neural network model
@@ -21,8 +22,17 @@ b. **Compiling, training, and evaluating the model**
    - Evaluated the loss and accuracy
 c. **Optimizing the model to try and increase its accuracy** 
 
+=======
+     
+b. **Compiling, training, and evaluating the model**
+   - Used TensorFlow and Keras to create a neural network model
+   - Compiled and trained the model: 2 hidden layers, 80 neurons in the first one and 30 neurons in the second one, relu activation function for the hidden layers and sigmoid function for the output layer
+   - Evaluated the loss and accuracy
+     
+c. **Optimizing the model to try and increase its accuracy** 
+>>>>>>> f45ec06f5fe932307f62a7f72559bde193b9b292
   - Optimization 1: added another hidden layer
   - Optimization 2: added neurons to the second hidden layer and replaced *relu* with *tahn* for the hidden layers
   - Optimization 3: reduced the number of neurons for the first hidden layer and switched back to *relu*
 
-I wasn't able to achieve thetarget model performance of 75%.
+I wasn't able to achieve the target model performance of 75%.
