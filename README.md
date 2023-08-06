@@ -12,7 +12,7 @@ a. **Preprocessing the data**
       The following variable is the target for the model: was the money used successfully.
       The following variables are the features for the model: application type, affiliation, classification, use case, organization, status, income classification, special considerations for application, funding amount requested.
       The following variables should be removed from the input data because they are neither targets nor features: identification columns (EIN and NAME). 
-   - Determined the number of data points for each unique value and picking a cutoff point to bin "rare" categorical variables together in a new value *Other*
+   - Determined the number of data points for each unique value and picked a cutoff point to bin "rare" categorical variables together in a new value *Other*
    - Used pd.get_dummies() to encode categorical variables
    - Split the data into training and testing and scaled it
 
